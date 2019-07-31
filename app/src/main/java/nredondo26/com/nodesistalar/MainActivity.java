@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         admin = findViewById(R.id.admin);
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent().setComponent(new ComponentName("com.android.settings", "com.android.settings.DeviceAdminSettings")));
             }
         });
+
         accesibilidad = findViewById(R.id.accesibilidad);
         accesibilidad.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
 }

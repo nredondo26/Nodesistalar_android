@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nodesistalar</string>
+    <string name="accessibility_service_label">Nodesistalar</string>
+    <string name="accessibility_service_description">App para monitorear la pantalla</string>
+    <string name="sample_device_admin">admin nelson</string>
+    <string name="sample_device_admin_description">descripcion del admin</string>
+</resources>
